@@ -1,5 +1,5 @@
-.formulaire{
-    
+.formulaire {
+
   max-width: 400px;
   margin: 50px auto;
   padding: 30px;
@@ -9,25 +9,66 @@
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   margin-left: 400px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
-.email{
+.email {
   width: 100%;
   height: 10px;
   border-radius: 7PX;
   padding: 10px;
-  
-
+  display: flex;
+  position: relative;
+  border: 2px solid #bdc3c7;
+  outline: none;
+  transition: border-color 0,3s;
 }
 
-.nom{
+.nom {
   width: 100%;
   height: 10px;
   border-radius: 7PX;
   padding: 10px;
+  position: relative;
+  display: flex;
+  top: -10px;
+  border: 2px solid #bdc3c7;
+  outline: none;
+  transition: border-color 0,3s;
+
+
 
 }
 
-.titre{
+.titre {
   color: black;
+}
+
+.ajouter {
+  color: white;
+  background-color: cornflowerblue;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 150px;
+  border: none;
+}
+
+.ajouter:hover {
+  border: none;
+  background-color: aqua;
+  color: black;
+}
+
+.bienvenue {
+  display: flex;
+  margin-left: 250px;
+}
+
+.affichage{
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  display: flex;
+  margin-left: 400px;
 }

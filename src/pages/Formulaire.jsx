@@ -15,6 +15,7 @@ const Formulaire = () => {
       alert("veuillez remplir tout les champs");
     }
   };
+ 
 
   return (
     <div>
@@ -32,13 +33,14 @@ const Formulaire = () => {
           placeholder="entrer votre email"
           onChange={(e) => setEmail(e.target.value)}
         />
-        <button type="submit">ajouter</button>
+        <button type="submit" className="ajouter">ajouter</button>
       </form>
 
       {submit && (
         <>
-          <p>le nom est:{nom}</p>
-          <p>l email est:{email}</p>
+          <p className="affichage">le nom est:{nom}</p>
+          <p className="affichage"
+          >  email est:{email}</p>
         </>
       )}
     </div>
