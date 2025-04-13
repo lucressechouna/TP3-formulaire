@@ -19,7 +19,7 @@ const Formulaire = () => {
   return (
     <div>
       <form onSubmit={add} className="formulaire">
-        <H1>fORMULAIRE D'AFFICHARGE</H1>
+        <h2 className="titre">Formulaire d'afficharge</h2>
         <input className="nom"
           type="text"
           value={nom}
